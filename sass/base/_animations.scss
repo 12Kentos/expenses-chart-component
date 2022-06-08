@@ -1,0 +1,18 @@
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    height: 0%;
+    // transform: translatey(6rem);
+  }
+
+  80% {
+    // transform: translatey(-1rem);
+    height: 80%;
+  }
+
+  // 100% {
+  // opacity: 1;
+  // transform: translatey(0);
+  // height: 100%;
+  // }
+}

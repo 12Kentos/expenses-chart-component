@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <div class="top-card">
+      <p class="top-card__balance">
+        My balance <span class="balance--number">$921.48</span>
+      </p>
+      <img src="images/logo.svg" alt="Company Logo" class="top-card__img" />
+    </div>
+    <div class="bottom-card">
+      <h3 class="heading-tertiary">
+        <p>Spending - Last 7 days</p>
+      </h3>
+      <div class="graph-container">
+        <div class="bar-container">
+          <div class="money money1">52.36</div>
+          <div class="graph graph--1"></div>
+        </div>
+
+        <div class="bar-container">
+          <div class="money money2">52.36</div>
+          <div class="graph graph--2"></div>
+        </div>
+
+        <div class="bar-container">
+          <div class="money money3">52.36</div>
+          <div class="graph graph--3"></div>
+        </div>
+
+        <div class="bar-container">
+          <div class="money money4">52.36</div>
+          <div class="graph graph--4"></div>
+        </div>
+
+        <div class="bar-container">
+          <div class="money money5">52.36</div>
+          <div class="graph graph--5"></div>
+        </div>
+
+        <div class="bar-container">
+          <div class="money money6">52.36</div>
+          <div class="graph graph--6"></div>
+        </div>
+
+        <div class="bar-container">
+          <div class="money money0">52.36</div>
+          <div class="graph graph--0"></div>
+        </div>
+      </div>
+      <div class="graph-days-container">
+        <p class="day">mon</p>
+        <p class="day">tue</p>
+        <p class="day">wed</p>
+        <p class="day">thu</p>
+        <p class="day">fri</p>
+        <p class="day">sat</p>
+        <p class="day">sun</p>
+      </div>
+      <div class="bottom-card__text">
+        <p class="bottom-card__balance">
+          Total this month <span class="month-balance--number">$478.33</span>
+        </p>
+        <p class="bottom-card__difference">
+          +2.4% <span class="small-text">from last month</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
